@@ -1,0 +1,1179 @@
+/***** BASE STYLES *****/
+html {
+    font-size: 32px;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+a {
+    color: #e2e3ed;
+    text-decoration: none;
+}
+
+.full-width {
+    
+    overflow: auto;
+}
+
+.two-thirds-width {
+    width: 66.6%;
+    float: left;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.third-width {
+    width: 33%;
+    float: left;
+}
+
+figure {
+    margin: 0;
+   }
+
+address {
+    font-style: normal;
+   }
+
+/***** ====================== MOBILE STYLES ====================== *****/   
+/* -------------------- Base Header - Footer Styles -------------------- */
+
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header,
+footer {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+}
+
+header .full-width {
+    height: 200px;
+    width: 100%;
+    background: url('../img/hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header figure {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+  }
+
+header figure img {
+    width: 175px;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+header h2 {
+    width: 220px;
+    clear: both;
+    font-family: 'Trade Winds', cursive;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: left;
+    color: #eeeeee;
+    margin-left: 25px;
+}
+
+header nav {
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    margin-right: 17px;
+    margin-top: -45%;
+    text-align: right;
+    line-height: 20px;
+    }
+
+header nav ul {
+    width: 100%;
+}
+
+header nav ul li a {
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 3px 2px #ffd900;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    color: #00a74e;
+    }
+
+#second {
+        color: #000000;
+        text-shadow: 2px 2px #FFFF38;
+        font-family: 'ewert', cursive;
+        font-size: 1.125em;
+}
+    
+#middle {
+        color: #eeeeee;
+        font-family: 'Frijole', cursive;
+}
+    
+#third {
+        color: #01c05ad0;
+        font-family: 'Freckle Face', cursive;
+        text-shadow: -1px 2px 1px #2f2f2f;
+}
+
+#water {
+        color: #A7F432;
+        font-family: 'Freckle Face', cursive;
+        text-shadow: 1px 1px #c2bebe;
+        font-size: 1.05em;
+        padding-left: 5px;
+}
+
+footer {
+    height: 520px;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3d3d3d;
+}
+
+footer .contact #contact-img {
+    border: 7px solid #ffffff;
+    border-radius: 3px;
+    width: 130px;
+    height: auto;
+    margin-top: 20px;
+}
+
+footer .contact h2 {
+    color: #f60e6f;
+    font-family: 'Frijole', cursive;
+    font-size: 24px;
+    line-height: 20px;
+    padding-right: 10px;
+    margin-bottom: -5px;
+}
+
+footer .contact #envelope {
+    margin-right: 4px;
+    margin-bottom: -1px;
+    width: 16px;
+    height: auto;
+}
+
+footer .contact #email-header {
+    color: #ffffff;
+    font-family: 'Freckle Face', cursive;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: auto;
+    padding-right: 10px;
+    margin-bottom: -5px;
+}
+
+footer .contact #socialmedia-header {
+    color: #ffffff;
+    font-family: 'Freckle Face', cursive;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    margin-top: 3px;
+    padding-right: 1px;
+}
+
+footer .contact .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+footer .contact .social-icons ul li {
+    margin-left: -5px;
+}
+
+footer .contact a {
+    text-decoration: none;
+    color: #0dd459;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+footer .contact ul {
+    list-style: none;
+}
+
+footer .contact ul li {
+    display: flex;
+    float: left;
+}
+
+footer .contact ul img {
+    width: 30px;
+    height: auto;
+}
+
+footer .copyright {
+    color: #777777;
+    margin: 0;
+    font-size: 10px;
+}
+
+/***** PROJECTS *****/
+
+.projects .container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    background: rgb(162,0,255);
+    background: linear-gradient(19deg, rgba(162,0,255,0.23012955182072825) 0%, rgba(207,99,5,0.4962359943977591) 30%, rgba(249,0,0,0.4766281512605042) 60%);
+    text-align: center;
+}
+
+.projects h2 {
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: 3px 2px #ffd900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 40px;
+    color: #f30082;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   
+}
+
+.projects .third-width {
+    display: flex;
+    flex-flow: column wrap;
+    width: 33%;
+    height: auto;
+}
+
+.projects img {
+    border: 4px solid #3d3d3d;
+    width: 100px;
+    height: 75px;
+    display: flex;
+    object-fit: cover;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.projects h3 {
+    color: #f30082;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.projects p {
+    color: #4d4d4d;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 14px;
+    line-height: 14px; 
+    text-align: center;
+    width: 85%;
+    padding-left: 7px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+
+.about .full-width {
+    margin: 0;
+}
+
+.about h2 {
+    width: 88%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #2b2b2b;
+    font-size: 32px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.about p {
+    width: 70%;
+    margin-left: 14%;
+    margin-bottom: 8%;
+    color: #af0777;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* ==========================================================================
+   Contact Page
+   ========================================================================== */
+
+.contact-section {
+    background-color: #fffefe;
+    display: flex;
+  }
+
+.contact-section h2 {
+    color: #af0777;
+    width: 90%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 20px;
+    margin-left: 5%;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: 'goldman';
+}
+
+.contact-content {
+    display: flex;
+    flex-flow: column;
+    margin-left: 10%;
+}
+
+.contact-content h4 {
+    font-size: 19px;
+    margin-top: 1%;
+    margin-bottom: -3%;
+    font-family: 'goldman';
+}
+
+.contact-content p {
+    font-size: 16px;
+    font-family: 'marvel';
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+ .hidden {
+    display: none !important;
+  }
+  
+  /*
+   * Hide only visually, but have it available for screen readers:
+   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+   *
+   * 1. For long content, line feeds are not interpreted as spaces and small width
+   *    causes content to wrap 1 word per line:
+   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+   */
+  
+  .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+    /* 1 */
+  }
+  
+  /*
+   * Extends the .visuallyhidden class to allow the element
+   * to be focusable when navigated to via the keyboard:
+   * https://www.drupal.org/node/897638
+   */
+  
+  .visuallyhidden.focusable:active,
+  .visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+  }
+  
+  /*
+   * Hide visually and from screen readers, but maintain layout
+   */
+  
+  .invisible {
+    visibility: hidden;
+  }
+  
+  /*
+   * Clearfix: contain floats
+   *
+   * For modern browsers
+   * 1. The space content is one way to avoid an Opera bug when the
+   *    `contenteditable` attribute is included anywhere else in the document.
+   *    Otherwise it causes space to appear at the top and bottom of elements
+   *    that receive the `clearfix` class.
+   * 2. The use of `table` rather than `block` is only necessary if using
+   *    `:before` to contain the top-margins of child elements.
+   */
+  
+  .clearfix:before,
+  .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+  }
+  
+  .clearfix:after {
+    clear: both;
+  }
+  
+  /* ==========================================================================
+     EXAMPLE Media Queries for Responsive Design.
+     These examples override the primary ('mobile first') styles.
+     Modify as content requires.
+     ========================================================================== */
+
+@media only screen and (min-width:768px) {
+        /*Tablet styles here*/
+    
+header {
+            height: 315px;
+            width: 100%;
+    }
+    
+header .full-width {
+            height: 315px;
+            background: url('../img/hero-background.png');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            display: block;
+    }
+        
+header figure {
+            display: flex;
+            justify-content: left;       
+    }
+        
+header figure img {
+            width: 350px;
+            border-radius: 5px;
+            margin-top: 25px;
+            margin-left: 10px;
+    }
+        
+header h2 {
+            width: 100%;
+            clear: both;
+            font-family: 'Trade Winds', cursive;
+            font-size: 35px;
+            line-height: 33px;
+            text-align: left;
+            color: #eeeeee;
+            margin-left: 50px;
+            margin-top: 7px;
+    }
+        
+header nav {
+            font-weight: 700;
+            text-transform: uppercase;
+            display: flex;
+            margin-right: 30px;
+            margin-top: 35px;
+            text-align: right;
+            line-height: 35px;
+            letter-spacing: 2px;
+    }
+        
+header nav ul {
+            width: 100%;
+    }
+        
+header nav ul li a {
+            font-family: 'Luckiest Guy', cursive;
+            text-shadow: 3px 2px #ffd900;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 48px;
+            color: #00a74e;
+    }
+        
+#second {
+            color: #000000;
+            text-shadow: 2px 2.5px #FFFF38;
+            font-family: 'ewert', cursive;
+            font-size: 1.125em;
+    }
+        
+#middle {
+            color: #eeeeee;
+            font-family: 'Frijole', cursive;
+    }
+        
+#third {
+            color: #01c05ad0;
+            font-family: 'Freckle Face', cursive;
+            text-shadow: -1px 2px 1px #2f2f2f;
+    }
+    
+#water {
+            color: #A7F432;
+            font-family: 'Freckle Face', cursive;
+            text-shadow: 1px 2px #c2bebe;
+            font-size: 1.05em;
+            padding-left: 5px;
+    }
+        
+footer {
+            height: 550px;
+            text-align: center;
+            flex-direction: row;
+            justify-content: center;
+            background-color: #3d3d3d;
+    }
+    
+footer .contact {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+    }
+    
+footer .contact-left {
+            width: 53%;
+            justify-content: center;
+            margin-left: 90px;
+    }
+        
+footer .contact h2 {
+            color: #f60e6f;
+            font-family: 'goldman', cursive;
+            font-size: 63px;
+            line-height: 43px;
+            margin-top: 40px;
+            letter-spacing: -3px;
+    }
+        
+footer .contact #envelope {
+            margin-right: 3px;
+            width: 15px;
+            height: auto;
+    }
+        
+footer .contact #email-header {
+            color: #ffffff;
+            font-family: 'marvel', cursive;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 26px;
+            word-wrap: auto;
+            margin-bottom: 4px;
+            
+    }
+        
+footer .contact #socialmedia-header {
+            color: #ffffff;
+            font-family: 'marvel', cursive;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 26px;
+            margin-top: 15px;
+            margin-right: 5px;
+    }
+    
+footer .contact-right {
+            width: 50%;
+            justify-content: center;
+    }
+    
+footer .contact #contact-img {
+            border: 7px solid #ffffff;
+            border-radius: 3px;
+            width: 200px;
+            height: auto;
+            margin-top: 20px;           
+    }
+        
+footer .contact .social-icons {
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 30px;
+    }
+    
+footer .contact .social-icons ul li {
+            margin-left: -15px;
+    }
+        
+footer .contact a {
+            text-decoration: none;
+            color: #0dd459;
+            font-weight: bold;
+            font-size: 22px;
+            margin-right: 20px;
+    }
+        
+footer .contact ul {
+            list-style: none;
+    }
+        
+footer .contact ul li {
+            display: flex;
+            float: left;
+    }
+        
+footer .contact ul img {
+            width: 45px;
+            height: auto;
+    }
+        
+footer .copyright {
+            display: flex;
+            color: #777777;
+            margin-top: 0;
+            font-size: 18px;
+    }
+    
+/***** PROJECTS *****/
+        
+.projects .container {
+            height: 850px;
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+            margin: 0;
+            padding: 0;
+            background: rgb(162,0,255);
+            background: linear-gradient(19deg, rgba(162,0,255,0.23012955182072825) 0%, rgba(207,99,5,0.4962359943977591) 30%, rgba(249,0,0,0.4766281512605042) 60%);
+            text-align: center;
+    }
+        
+.projects h2 {
+            font-family: 'Luckiest Guy', cursive;
+            text-shadow: 3px 2px #ffd900;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-size: 55px;
+            color: #f30082;
+            margin-top: 40px;
+    }
+    
+.projects-container {
+            height: 650px;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: space-around;
+    }
+    
+.projects .third-width {
+            display: flex;
+            flex-flow: column wrap;
+            width: 25%;
+            padding: 10px 20px 20px 20px;
+    }
+        
+        
+.projects img {
+            border: 5px solid #3d3d3d;
+            width: 180px;
+            height: 120px;
+            display: flex;
+            margin: 0 auto;
+    }
+        
+.projects h3 {
+            color: #f30082;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+            font-size: 36px;
+            line-height: 32px;
+            margin: 0 auto;
+            padding-top: 15px;
+    }
+        
+.projects p {
+            color: #4d4d4d;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+            font-size: 22px;
+            line-height: 20px;    
+    }
+        
+/* ==========================================================================
+    About Page
+   ========================================================================== */
+        
+.about .full-width {
+        margin: 0;
+    }
+        
+.about h2 {
+        width: 88%;
+        margin-left: 5%;
+        margin-bottom: 0;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: #2b2b2b;
+        font-size: 50px;
+        line-height: 42px;
+        text-align: center;
+        
+    }
+        
+.about p {
+        width: 77%;
+        margin-left: 9%;
+        color: #af0777;
+        font-size: 22px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+        
+/* ==========================================================================
+    Contact Page
+   ========================================================================== */
+        
+.contact-section {
+    background-color: #fffefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    }
+        
+.contact-section h2 {
+    color: #af0777;
+    font-size: 44px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: 20px;
+    }
+
+.contact-container {
+    width: 100%;
+}
+        
+.contact-content {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    }
+        
+.contact-content h4 {
+    font-size: 22px;
+    margin-bottom: -10px;
+    }
+        
+.contact-content p {
+            font-size: 16px;
+            margin-bottom: 20px;
+    }
+
+.contact-content .hq-info {
+    width: 40%;
+    padding-left: 15%;
+}
+
+.contact-content .skills-info {
+    width: 40%;
+}
+
+}
+
+
+
+@media only screen and (min-width:1200px) {
+    /*Desktop styles here*/
+
+    header {
+        height: 430px;
+        width: 100%;
+    }
+
+    header .full-width {
+        height: 430px;
+        background: url('../img/hero-background.png');
+        background-size: cover;
+        background-position: center;
+        margin: 0;
+        display: block;
+        
+    }
+    
+    header figure {
+        display: flex;
+        justify-content: left;
+        
+      }
+    
+    header figure img {
+        width: 600px;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    
+    header h2 {
+        width: 85%;
+        clear: both;
+        font-family: 'Trade Winds', cursive;
+        font-size: 55px;
+        line-height: 53px;
+        text-align: left;
+        color: #eeeeee;
+        margin-left: 50px;
+        margin-top: 15px;
+
+    }
+    
+    header nav {
+        font-weight: 700;
+        text-transform: uppercase;
+        display: flex;
+        margin-right: 33px;
+        margin-top: 50px;
+        text-align: right;
+        line-height: 60px;
+        letter-spacing: 2px;
+        }
+    
+    header nav ul {
+        width: 100%;
+    }
+    
+    header nav ul li a {
+        font-family: 'Luckiest Guy', cursive;
+        text-shadow: 3px 2px #ffd900;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 88px;
+        color: #00a74e;
+        }
+    
+    #second {
+        color: #000000;
+        text-shadow: 2px 2.5px #FFFF38;
+        font-family: 'ewert', cursive;
+        font-size: 1.125em;
+    }
+    
+    #middle {
+        color: #eeeeee;
+        font-family: 'Frijole', cursive;
+    }
+    
+    #third {
+        color: #01c05ad0;
+        font-family: 'Freckle Face', cursive;
+        text-shadow: -1px 2px 1px #2f2f2f;
+    }
+
+    #water {
+        color: #A7F432;
+        font-family: 'Freckle Face', cursive;
+        text-shadow: 1px 2px #c2bebe;
+        font-size: 1.05em;
+        padding-left: 5px;
+    }
+    
+    footer {
+        height: 625px;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        background-color: #3d3d3d;
+    }
+
+    footer .contact {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer .contact-left {
+        width: 40%;
+        justify-content: center;
+        margin-left: 350px;
+    }
+    
+    footer .contact h2 {
+        color: #f60e6f;
+        font-family: 'goldman', cursive;
+        font-size: 88px;
+        line-height: 60px;
+        margin-top: 60px;
+        letter-spacing: -4px;
+    }
+    
+    footer .contact #envelope {
+        margin-right: 3px;
+        width: 15px;
+        height: auto;
+    }
+    
+    footer .contact #email-header {
+        color: #ffffff;
+        font-family: 'marvel', cursive;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 28px;
+        word-wrap: auto;
+        margin-bottom: 4px;
+        
+    }
+    
+    footer .contact #socialmedia-header {
+        color: #ffffff;
+        font-family: 'marvel', cursive;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 28px;
+        margin-top: 15px;
+        margin-right: 5px;
+    }
+
+    footer .contact-right {
+        width: 40%;
+        justify-content: center;
+        margin-right: 250px;
+    }
+
+    footer .contact #contact-img {
+        border: 7px solid #ffffff;
+        border-radius: 3px;
+        width: 250px;
+        height: auto;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    
+    footer .contact .social-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+      }
+
+    footer .contact .social-icons ul li {
+        margin-left: -12px;
+    }
+    
+    footer .contact a {
+        text-decoration: none;
+        color: #0dd459;
+        font-weight: bold;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    
+    footer .contact ul {
+        list-style: none;
+    }
+    
+    footer .contact ul li {
+        display: flex;
+        float: left;
+    }
+    
+    footer .contact ul img {
+        width: 60px;
+        height: auto;
+    }
+    
+    footer .copyright {
+        display: flex;
+        color: #777777;
+        margin-top: 0;
+        font-size: 18px;
+    }
+
+    /***** PROJECTS *****/
+    
+    .projects .container {
+        height: 1250px;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        margin: 0;
+        padding: 0;
+        background: rgb(162,0,255);
+        background: linear-gradient(19deg, rgba(162,0,255,0.23012955182072825) 0%, rgba(207,99,5,0.4962359943977591) 30%, rgba(249,0,0,0.4766281512605042) 60%);
+        text-align: center;
+    }
+    
+    .projects h2 {
+        font-family: 'Luckiest Guy', cursive;
+        text-shadow: 3px 2px #ffd900;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 99px;
+        color: #f30082;
+        margin-top: 40px;
+    }
+
+    .projects-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: space-around;
+    }
+
+    .projects .third-width {
+        display: flex;
+        flex-flow: column wrap;
+        width: 30%;
+        padding: 20px;
+    }
+    
+    
+    .projects img {
+        border: 5px solid #3d3d3d;
+        width: 433px;
+        height: 325px;
+        display: flex;
+        object-fit: cover;
+        align-content: center;
+        margin: 0 auto;
+    }
+    
+    .projects h3 {
+        color: #f30082;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 40px;
+        line-height: 35px;
+        margin: 0 auto;
+        padding-top: 15px;
+    }
+    
+    .projects p {
+        width: 95%;
+        color: #4d4d4d;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        font-size: 26px;
+        line-height: 27px;    
+    }
+    
+    /* ==========================================================================
+       About Page
+       ========================================================================== */
+    
+    .about {
+        display: flex;
+    }
+    
+    .about h2 {
+        width: 70%;
+        margin-left: 15%;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color: #2b2b2b;
+        font-size: 70px;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    .about p {
+        width: 66%;
+        margin-left: 16%;
+        margin-bottom: 3%;
+        color: #af0777;
+        font-size: 24px;
+        padding-bottom: 10px;
+        text-align: justify;
+    }
+    
+    /* ==========================================================================
+       Contact Page
+       ========================================================================== */
+    
+    .contact-section {
+        background-color: #fffefe;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+    
+    .contact-container {
+        width: 100%;
+    }
+    
+    .contact-section h2 {
+        width: 90%;
+        font-size: 69px;
+        line-height: 50px;
+        text-align: center;
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+    
+    .contact-content {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .hq-info {
+        width: 35%;
+        justify-content: right;
+    }
+
+    .skills-info {
+        width: 35%;
+        justify-content: left;
+    }
+    
+    .contact-content h4 {
+        font-size: 36px;
+        margin-bottom: -3%;
+    }
+    
+    .contact-content p {
+        font-size: 25px;
+        margin-bottom: 10%;
+    }
+}
